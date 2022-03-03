@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/css/estilos1.css">
+</head>
+
+<body>
+  <header class="centrar">
+    <h1>Práctica HTML Launch X</h1>
+    <h2>Pastel Otakus</h2>
+  </header>
+  <nav class="navMenu">
+    <a href="/index.html">Inicio</a>
+    <a href="admin.html">Admin</a>
+    <a href="/pedidos.html">Pedidos</a>
+    <div class="dot"></div>
+  </nav>
+  <h2 id="pedidos">Configura tu pedido</h2>
+  <section>
+    <h2 class="sabores">Sabores</h2>
+    <div>
+      <fieldset>
+        <form>
+          <input type="checkbox" id="pina" name="pina" value="pina">
+          <label for="pina">Piña</label>
+          <input type="text" readonly="true" placeholder="    2 Unidades disponibles" class="transparente">
+
+          <br>
+
+          <input type="checkbox" id="zanahoria" name="zanahoria" value="zanahoria">
+          <label for="durazno">Zanahoria </label>
+          <input type="text" readonly="true" placeholder="    4 Unidades disponibles" class="transparente">
+
+          <br>
+
+          <input type="checkbox" id="chocolate" name="chocolate" value="chocolate">
+          <label for="chocolate">Chocolate</label>
+          <input type="text" readonly="true" placeholder="    7 Unidades disponibles" class="transparente">
+
+          <br>
+
+          <input type="checkbox" id="fresa" name="fresa" value="fresa">
+          <label for="fresa">Fresa </label>
+          <input type="text" readonly="true" placeholder="    2 Unidades disponibles" class="transparente">
+
+          <br>
+
+          <input type="checkbox" id="vainilla" name="vainilla" value="vainilla">
+          <label for="vainilla">Vainilla</label>
+          <input type="text" readonly="true" placeholder="    2 Unidades disponibles" class="transparente">
+
+          <br>
+
+          <input type="checkbox" id="tresLeches" name="tresLeches" value="tresLeches">
+          <label for="tresLeches">tresLeches</label>
+          <input type="text" readonly="true" placeholder="    11 Unidades disponibles" class="transparente">
+          
+          <br>
+          <br>
+          <label for="Precio">Total: </label> 
+          <input type="number" class="transparente" placeholder="$ 200 Pesos" id="Precio" name="Precio">
+        </form>
+      </fieldset>  
+    </div>
+  </section>
+
+  <section>
+    <h2 class="adornos">Adornos</h2>
+    <div>
+      <fieldset>
+        <form>
+          <input type="checkbox" id="frutal" name="frutal" value="frutal">
+          <label for="frutal">Adorno frutal</label>
+          <input type="text" readonly="true" placeholder="    8 Unidades disponibles" class="transparente">
+          <br>
+
+          <input type="checkbox" id="velitas" name="velitas" value="velitas">
+          <label for="velitas">Velitas</label>
+          <input type="text" readonly="true" placeholder="    10 Unidades disponibles" class="transparente">
+          <br>
+
+          <input type="checkbox" id="nombreCumpleañero" name="nombreCumpleañero" value="nombreCumpleañero">
+          <label for="nombreCumpleañero">Nombre Cumpleañero</label>
+          <input type="text" id="nombreCumpleañero1" name="nombreCumpleañero1" placeholder="Escribe el nombre">
+          <input type="text" readonly="true" placeholder="    10 Unidades disponibles" class="transparente">
+          <br>
+
+          <input type="checkbox" id="dinero" name="dinero" value="dinero">
+          <label for="dinero">Billetes al centro que salgan con un globo</label>
+          <br>
+          <br>
+          <label for="Precio">Total: </label> 
+          <input type="number" class="transparente" placeholder="$ 300 Pesos" id="Precio" name="Precio" readonly="true">
+        </form>
+      </fieldset>
+    </div>
+  </section>
+
+
+  <section>
+    <h2 class="envio">Información de envio</h2>
+    <fieldset>
+      <form>
+        <div class="centrar">
+          <label for="nombre">Nombre: </label>
+          <input type="text" id="nombre" name="nombre">
+          <br>
+          <label for="direccion">Dirección de envio:</label>
+          <input type="text" id="direccion" name="direccion">
+          <br>
+          <label for="numero">Número de Teléfono:</label>
+          <input type="number" id="numero" name="numero">
+          <br>
+          <label for="correo">Correo Electrónico: </label>
+          <input type="email" id="correo" name="correo">
+          <br>
+          <label for="descripcion">Comentario:</label>
+          <br>
+          <textarea name="descripcion" id="descripcion"></textarea>
+      </form>
+    </fieldset>
+  </section>
+
+  <div>
+    <form>
+      <label for="total">Total: </label>
+      <input type="number" id="total" name="total" readonly="true" placeholder="$ 500 Pesos" class="transparente">
+      <br>
+    </form>
+  </div>
+  <div class="centrar">
+    <a class="boton" href="/index.html">Terminar Compra</a>
+  </div>
+  
+  
+  <footer class="centrar">
+    <h3>Somos Pastel Otakus</h3>
+    <p>Dirección: Benito Juárez</p>
+    <p>Teléfono: 3751226303</p>
+    <p>Horarios de atención:</p>
+    <p>lunes a viernes de 8am a 10 pm</p>
+    <p>Sabado y Domingo de 8am a 4pm</p>
+  </footer>
+</body>
+
+</html>

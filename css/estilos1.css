@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+header{
+    padding: 20px; 
+}
+header h2{
+    padding: 15px;
+}
+body {
+    background: #e6afff;
+    font-family: "Montserrat", sans-serif;
+}
+.centrar{
+    text-align: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.navMenu {
+    text-align: center;
+}
+
+.navMenu a {
+  color: #f6f4e6;
+  text-decoration: none;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  width: 80px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  
+}
+
+.navMenu a:hover {
+  color: #fddb3a;
+}
+
+footer{
+    bottom: 0;
+    padding: 40px;
+    text-align: center;
+}
+h2{
+    padding: 50px;
+    text-align: center;
+}
+div{
+    padding: 20px;
+    text-align: center;
+}
+#info{
+    text-align: center;
+    padding: 30px;
+}
+fieldset{
+    padding: 10px;
+}
+.transparente{
+    background-color: #e6afff;
+    margin: 0;
+    text-align: center;
+}
+#pedidos{
+    padding: 0;
+    padding-bottom: 5px;
+}
+
+dt{
+    padding: 10px;
+}
+
+.adornos{
+    padding: 0px;
+}
+.sabores{
+    padding: 0px;
+    padding-top: 20px;
+}
+.envio{
+    padding: 0px;
+    padding-bottom: 20px;
+}
+
+.boton {
+    text-align: center;
+    border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+    padding: 10px; /*espacio alrededor texto*/
+    background-color: #2e518b; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 50px; /*bordes redondos*/
+}
+footer{
+    bottom: 0;
+    padding: 40px;
+    text-align: center;
+}
+
+div table{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid purple;
+}
